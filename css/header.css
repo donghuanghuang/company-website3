@@ -1,0 +1,170 @@
+.pad-t-20{
+    padding-top: 20px;
+}
+.pad-t-30{
+    padding-top: 30px;
+}
+.pad-l-10{
+    padding-left: 10px;
+}
+.pad-l-20{
+    padding-left: 20px;
+}
+.pad-l-35{
+    padding-left: 35px;
+}
+.active{
+    color: #00b7ee;
+}
+.fz-16{
+    font-size: 16px;
+}
+.w-90{
+    width: 90px;
+}
+.w-100{
+    width: 100px;
+}
+.h-30{
+    height: 30px;
+}
+.line{
+    padding-top: 25px;
+    border-top: 2px solid #00b7ee;
+}
+.fc{
+    color: #333333;
+}
+.fl{
+    float: left;
+}
+.text-decoration{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.listStyle{
+  list-style: none;
+}
+.nav-fz{
+    font-family:"Microsoft Yahei";
+}
+.tx-cen{
+    text-align: center;
+}
+.header{
+    width: 1270px;
+    height: 90px;
+    margin: 0 auto;
+
+}
+.pad-b-20{
+    padding-bottom: 20px;
+}
+.pad-t-5{
+    padding-top: 5px;
+}
+.mar-t-5{
+    margin-top: 5px;
+}
+.dis-inline{
+    display: inline-block;
+}
+.z-ind{
+    z-index: 10;
+}
+.re-15{
+    position: relative;
+    bottom: 15px
+}
+.re-25{
+    position: relative;
+    bottom: 25px
+}
+.re-35{
+    position: relative;
+    bottom: 35px
+}
+.re-45{
+    position: relative;
+    bottom: 45px
+}
+.re-60{
+    position: relative;
+    bottom: 60px
+}
+.re-100{
+    position: relative;
+    bottom: 100px
+}
+.re-104{
+    position: relative;
+    bottom: 104px
+}
+.re-145{
+    position: relative;
+    bottom: 145px
+}
+.re-147{
+    position: relative;
+    bottom: 147px
+}
+.re-150{
+    position: relative;
+    bottom: 150px
+}
+.re-185{
+    position: relative;
+    bottom: 185px
+}
+.re-190{
+    position: relative;
+    bottom: 190px
+}
+.re-200{
+    position: relative;
+    bottom: 200px
+}
+.re-235{
+    position: relative;
+    bottom: 235px
+}
+.re-295{
+    position: relative;
+    bottom: 295px
+}
+.re-280{
+    position: relative;
+    bottom: 280px
+}
+.re-300{
+    position: relative;
+    bottom: 300px
+}
+.li1 a{
+    color: #666666;
+    display: inline;
+}
+.li1:hover {
+    color: #fff ;
+    background: #00b7ee;
+    cursor: pointer;
+}
+.industrySystem>li>a{
+    display: block;
+}
+.industrySystem>li:hover{
+    color: #fff;
+    background:#00b7ee;
+    cursor: pointer;
+}
+.a1:hover{
+    color: #00b7ee;
+    transition: 0.5s;
+    padding-top: 20px;
+    border-top: 2px solid #00b7ee;
+}
+.sellNav>.container>.row>div:hover{
+    cursor: pointer;
+}

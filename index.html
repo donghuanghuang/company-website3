@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>汉全公司首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <!--<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--头部-->
+<header id="header">
+    <!--头部-->
+    <div class="pad-t-20 header">
+        <div class="fl"><img src="images/header/logo.png" class="img-responsive" alt=""/></div>
+        <!--下拉列表-->
+        <div class="fl tx-cen">
+            <ul class="listStyle pad-t-30 ul1">
+                <li class="w-90  fl tx-cen pad-l-20">
+                    <a class="z-fs-16 text-decoration nav-fz fc  a1"  href="">首页</a>
+                </li>
+                <li class="w-90  fl tx-cen pad-l-20 soft">
+                    <a class="z-fs-16 text-decoration nav-fz fc softA a1" href="">软件产品</a>
+                    <div class="  z-w-1200 z-text-cen z-h-300 z-mar-au-0 softwareShow z-bg-fff" style="display:none;position: absolute;z-index: 100">
+                        <ul class="listStyle z-mar-0 z-padded-0">
+                            <li class="fl z-h-300 z-w-200 li1 z-padded-t-20">
+                                <p class="z-fs-16 text-center ">代理系统</p>
+                                <p class="z-w-160 z-h-1 z-bor-1 z-mar-l-20 z-bor-gray"></p>
+                                <div class="text-center z-fs-12">
+                                    <p >
+                                        <span class="z-mar-r-20"><a class="z-fs-12"  href="">单轨</a></span>
+                                        <span><a class="z-fs-12" href="">混合制</a></span>
+                                    </p>
+                                    <p>
+                                        <span class="z-mar-r-20"><a class="z-fs-12" href="">双轨</a></span>
+                                        <span><a class="z-fs-12" href="">大公排</a></span>
+                                    </p>
+                                    <p>
+                                        <span class="z-mar-r-20"><a class="z-fs-12" href="">三轨</a></span>
+                                        <span><a class="z-fs-12" href="">小公排</a></span>
+                                    </p>
+                                    <p>
+                                        <span ><a class="z-fs-12" href="">五级三阶</a></span>
+                                        <span class="z-mar-l-10"><a class="z-fs-12" href="">一线公排</a></span>
+                                    </p>
+                                    <p>
+                                        <span class="z-mar-r-20"><a href="">矩阵制</a></span>
+                                        <span><a href="">二二复制</a></span>
+                                    </p>
+                                    <p>
+                                        <span class="z-mar-r-20"><a href="">级差制</a></span>
+                                        <span><a href="">三三复制</a></span>
+                                    </p>
+                                    <p>
+                                        <span class="z-mar-r-20"><a href="">太阳线</a></span>
+                                        <span><a href="">闪电公排</a></span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="fl z-h-300 z-w-200  li1 z-padded-t-20">
+                                <p class="z-fs-16 text-center"> 分销系统</p>
+                                <p class="z-w-160 z-h-1 z-bor-1 z-mar-l-20 z-bor-gray"></p>
+                                <div class="z-fs-12">
+                                    <ul class="listStyle text-center z-mar-r-34">
+                                        <li class="z-mar-t-10"><a href="">区域分销</a></li>
+                                        <li class="z-mar-t-10"><a href="">单品分销</a></li>
+                                        <li class="z-mar-t-10"><a href="">微商分销</a></li>
+                                        <li class="z-mar-t-10"><a href="">供应商分销</a></li>
+                                        <li class="z-mar-t-10"><a href="">3*3分销</a></li>
+                                        <li class="z-mar-t-10"><a href="">股东分红</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fl z-h-300 z-w-200  li1 z-padded-t-20">
+                                <p class="z-fs-16 text-center">代理系统</p>
+                                <p class="z-w-160 z-h-1 z-bor-1 z-mar-l-20 z-bor-gray"></p>
+                                <div class="z-fs-12">
+                                    <ul class="listStyle text-center z-mar-r-34">
+                                        <li class="z-mar-t-10"><a href="">区域代理</a></li>
+                                        <li class="z-mar-t-10"><a href="">代理商分红</a></li>
+                                        <li class="z-mar-t-10"><a href="">新微商(虚拟库存)</a></li>
+                                        <li class="z-mar-t-10"><a href="">新微商(层级发货)</a></li>
+                                        <li class="z-mar-t-10"><a href="">双库存代理</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fl z-h-300 z-w-200  li1 z-padded-t-20">
+                                <p class="z-fs-16 text-center">全返系统</p>
+                                <p class="z-w-160 z-h-1 z-bor-1 z-mar-l-20 z-bor-gray"></p>
+                                <div class="z-fs-12">
+                                    <ul class="listStyle text-center z-mar-r-34">
+                                        <li class="z-mar-t-10"><a href="">购物返</a></li>
+                                        <li class="z-mar-t-10"><a href="">递减返</a></li>
+                                        <li class="z-mar-t-10"><a href="">排队返</a></li>
+                                        <li class="z-mar-t-10"><a href="">云联惠模式</a></li>
+                                        <li class="z-mar-t-10"><a href="">大唐天下模式</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fl z-h-300 z-w-200  li1 z-padded-t-20">
+                                <p class="z-fs-16 text-center">O2O</p>
+                                <p class="z-w-160 z-h-1 z-bor-1 z-mar-l-20 z-bor-gray"></p>
+                                <div class="z-fs-12">
+                                    <ul class="listStyle text-center z-mar-r-34">
+                                        <li class="z-mar-t-10"><a href="">陌车系统</a></li>
+                                        <li class="z-mar-t-10"><a href="">直播系统</a></li>
+                                        <li class="z-mar-t-10"><a href="">拼团系统</a></li>
+                                        <li class="z-mar-t-10"><a href="">团购系统</a></li>
+                                        <li class="z-mar-t-10"><a href="">多商家系统</a></li>
+                                        <li class="z-mar-t-10"><a href="">多商家入驻系统</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fl z-h-300 z-w-200  li1 z-padded-t-20">
+                                <p class="z-fs-16 text-center">H5</p>
+                                <p class="z-w-160 z-h-1 z-bor-1 z-mar-l-20 z-bor-gray"></p>
+                                <div class="z-fs-12">
+                                    <ul class="listStyle text-center z-mar-r-34">
+                                        <li class="z-mar-t-10"><a href="">抢红包</a></li>
+                                        <li class="z-mar-t-10"><a href="">大转盘</a></li>
+                                        <li class="z-mar-t-10 z-fs-16"><a href="">分红系统</a></li>
+                                        <li class="z-mar-t-10"><a href="">全球分红</a></li>
+                                        <li class="z-mar-t-10"><a href="">静态分红</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="w-90  fl tx-cen pad-l-20">
+                    <a class="text-decoration nav-fz fc a1" href="">区块链</a>
+                </li>
+                <li class="w-90  fl tx-cen pad-l-20 trade">
+                    <a class="text-decoration nav-fz fc a1" href="">行业系统</a>
+                    <div class="z-w-1162 z-text-cen z-h-88 z-mar-au-0 z-bg-fff tradeList " style="position: absolute;z-index: 100;left: 15%;display: none;">
+                        <ul class="listStyle industrySystem z-padded-0 z-mar-0 ">
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">保健品行业</a></li>
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">美妆行业</a></li>
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">家具行业</a></li>
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">生鲜水果行业</a></li>
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">在线娃娃机</a></li>
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">汽车销售行业</a></li>
+                            <li class="fl z-h-88 z-w-166 z-line-h-88 li2"><a class="z-col-333 z-fs-14" href="">教育行业</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="w-100 fl tx-cen pad-l-20">
+                    <a class="text-decoration nav-fz fc a1" href="">小程序商城</a>
+                </li>
+                <li class="w-90  fl tx-cen pad-l-20">
+                    <a class="text-decoration nav-fz fc a1" href="">定制开发</a>
+                </li>
+                <li class="w-90  fl tx-cen pad-l-20">
+                    <a class="text-decoration nav-fz fc a1" href="">经销开发</a>
+
+                </li>
+                <li class="w-90  fl tx-cen pad-l-20">
+                    <a class="text-decoration nav-fz fc a1" href="">汉全风采</a>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--软件产品下拉内容-->
+
+
+</header>
+<section>
+<!--主体-->
+<!--轮播图-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner/banner1.png" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="images/banner/banner1.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="images/banner/banner1.png" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<!--热门服务-->
+    <div class="container">
+        <div class="row">
+            <div class="z-fs-18 z-col-333 z-fw-b  bor-bottom z-w-120 text-center z-mar-au-0 z-padded-t-10">热门服务</div>
+            <div class="z-padded-t-10 text-center text-muted">互联网+一体化标准产品为助力中小企业快速搭建云上企业、网上生意</div>
+        </div>
+    </div>
+<!--热门服务内容轮播-->
+    <div class="layout pad-t-20 pad-b-20">
+        <ul class="kwicks kwicks-horizontal hideshow kwicks-processed on" data-topb="125.10001220703123" data-tops="1296.7000122070312">
+            <li  style="left:0px;width:465px;">
+                <div class="clearfix sermodwrap">
+                    <div class="b1 sermod " style="background: url(images/serve/serve_square01.png)">
+
+                        <h4 class="text-center pad-t-30">直销系统</h4>
+                        <p class="ft-16">DIRECT SALES SYSTEM</p>
+                        <p class="ft-16">
+                            <span class="mar-t-5 dis-inline">中高端直销系统开发服务</span>
+                            <span class="mar-t-5 dis-inline">商,全国领先的直销结算理</span>
+                            <span class="mar-t-5 dis-inline">论,最顶级的直销系统多种</span>
+                            <span class="mar-t-5 dis-inline">模式任意组合</span>
+                        </p>
+                    </div>
+                    <div class="sermod2 b1 bg2" >
+
+                        <div class="sermod2-wrap" style="padding-top: 65px;">
+                            <a href="" title="单轨系统">单轨系统</a>
+                            <a href="" title="双轨系统">双轨系统</a>
+                            <a href="" title="太阳线系统">太阳线系统</a>
+                            <a href="" title="五级三阶">五级三阶</a>
+                            <a href="" title="矩阵级差">矩阵级差</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li style="left:470px;width:240px;"  >
+                <div class="clearfix sermodwrap">
+                    <div class="b2 sermod " style="background: url(images/serve/serve_square02.png)">
+                        <h4 class="text-center pad-t-30">O2O系统</h4>
+                        <p class="ft-16 text-center">O2O SYSTEM</p>
+                        <p class="ft-16 pad-l-20">
+                            <span class="mar-t-5 dis-inline">左线上,右线下,社区代</span>
+                            <span class="mar-t-5 dis-inline">理,双管齐下,帮助线上平</span>
+                            <span class="mar-t-5 dis-inline">台完成渠道下沉,突破险胜</span>
+                            <span class="mar-t-5 dis-inline">零售瓶颈,无缝化体验</span>
+                        </p>
+                    </div>
+                    <div class="sermod2 b2 bg4" >
+
+                        <div class="sermod2-wrap" style="padding-top: 80px;">
+                            <a href="" title="陌车系统">陌车系统</a>
+                            <a href="" title="直播系统">直播系统</a>
+                            <a href="" title="拼团系统">拼团系统</a>
+                            <a href="" title="团购系统">团购系统</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li style="left:715px;width:240px;" >
+                <div class="clearfix sermodwrap">
+                    <div class="b3 sermod " style="background: url(images/serve/serve_square03.png)">
+                        <h4 class="text-center pad-t-30">新微商系统</h4>
+                        <p class="ft-16 text-center">NEW MICRO-BUSINESS</p>
+                        <p class="ft-16 pad-l-20">
+                            <span class="mar-t-5 dis-inline">新微商虚拟库存主打线上</span>
+                            <span class="mar-t-5 dis-inline">线下交易,代理与代理关系</span>
+                            <span class="mar-t-5 dis-inline">库存运作，通过分享链接</span>
+                            <span class="mar-t-5 dis-inline">发展下级,解决囤货和分销</span>
+                            <span class="mar-t-5 dis-inline">渠道价格管控问题</span>
+                        </p>
+
+                    </div>
+                    <div class="sermod2 b3 bg6" >
+
+                        <div class="sermod2-wrap" style="padding-top: 105px;">
+                            <a href="" title="虚拟库存">虚拟库存</a>
+                            <a href="" title="层级发货">层级发货</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li style="left: 960px;;width:240px;overflow: hidden"  >
+                <div class="clearfix sermodwrap">
+                    <div class="b4 sermod " style="background: url(images/serve/serve_square04.png)">
+                        <h4 class="text-center pad-t-30">行业小程序</h4>
+                        <p class="ft-16 text-center">INDUSTRY APPLETS</p>
+                        <p class="ft-16 pad-l-20">
+                            <span class="mar-t-5 dis-inline">通过体积小速度快的小程</span>
+                            <span class="mar-t-5 dis-inline">序,基于朋友圈的传播,轻</span>
+                            <span class="mar-t-5 dis-inline">松带领成千上万的微信用</span>
+                            <span class="mar-t-5 dis-inline">户一起销售,让分销商成为</span>
+                            <span class="mar-t-5 dis-inline">分销商</span>
+                        </p>
+
+                    </div>
+                    <div class="sermod2 b4 bg8" >
+
+                        <div class="sermod2-wrap" style="padding-top: 65px;">
+                            <a href="" title="外卖系统">外卖系统</a>
+                            <a href="" title="在线娃娃机">在线娃娃机</a>
+                            <a href="" title="水果生鲜">水果生鲜</a>
+                            <a href="" title="美妆保健">美妆保健</a>
+                            <a href="" title="家具珠宝">家具珠宝</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+<!--全国六网-->
+    <div class="container">
+        <!--六个图标-->
+        <div class="row">
+            <div class="z-fs-18 z-col-333 z-fw-b  bor-bottom z-w-120 text-center z-mar-au-0">全国六网</div>
+            <div class="z-padded-t-10 text-center text-muted">汉全系列产品支持全网六网,兼容性更强</div>
+        </div>
+        <div class="row z-padded-t-20">
+            <div class="fl z-bor-efefef z-h-160 z-mar-r-50 z-w-150 z-text-cen z-fs-14 z-col-666">
+                <p class="z-padded-t-20 ">
+                    <img src="images/six/small.png" alt=""/>
+                </p>
+                <p class="z-padded-t-14 ">支持</p>
+                <p class="">微信小程序</p>
+            </div>
+            <div class="fl z-bor-efefef z-h-160 z-mar-r-50  z-w-150 z-text-cen z-fs-14 z-col-666">
+                <p class="z-padded-t-20 ">
+                    <img src="images/six/wechat.png" alt=""/>
+                </p>
+                <p class="z-padded-t-14 ">支持</p>
+                <p>微信公众号</p>
+            </div>
+            <div class="fl z-bor-efefef z-h-160 z-mar-r-50  z-w-150 z-text-cen z-fs-14 z-col-666">
+                <p class="z-padded-t-20 ">
+                    <img src="images/six/mobile.png" alt=""/>
+                </p>
+                <p class="z-padded-t-14">支持</p>
+                <p>手机WAP</p>
+            </div>
+            <div class="fl z-bor-efefef z-h-160 z-mar-r-50  z-w-150 z-text-cen z-fs-14 z-col-666">
+                <p class="z-padded-t-20">
+                    <img src="images/six/ios.png" alt=""/>
+                </p>
+                <p class="z-padded-t-14">支持</p>
+                <p>苹果APP</p>
+            </div>
+            <div class="fl z-bor-efefef z-h-160 z-mar-r-50  z-w-150 z-text-cen z-fs-14 z-col-666">
+                <p class="z-padded-t-20 ">
+                    <img src="images/six/Android.png" alt=""/>
+                </p>
+                <p class="z-padded-t-14">支持</p>
+                <p>安卓APP</p>
+            </div>
+            <div class="fl z-bor-efefef z-h-160   z-w-150 z-text-cen">
+                <p class="z-padded-t-20 ">
+                    <img src="images/six/PC.png" alt=""/>
+                </p>
+                <p class="z-padded-t-14">支持</p>
+                <p>PC端</p>
+            </div>
+        </div>
+    </div>
+<!--直销模式-->
+   <div class="z-W100 z-h-544 z-bg-efefef z-mar-t-30">
+        <div class="container   z-padded-t-30">
+            <div class="row z-text-cen">
+                <div class="z-fs-18 z-col-333 z-fw-b  bor-bottom z-w-120 text-center z-mar-au-0 ">直销模式</div>
+            </div>
+            <div class="row z-mar-t-30 sellNav">
+                <div class="container ">
+                    <div class="row z-h-48 z-bg-fff z-bor-ra-5">
+                        <div class="fl z-w-130 z-mar-l-15 z-mar-t-4 z-col-fff z-h-40 z-bg-008ff8 z-bor-ra-19 z-text-cen z-line-h-40">
+                            <span >单轨系统</span>
+                        </div>
+                        <div class="fl z-w-130 z-mar-l-15 z-bor-ra-19  z-h-40 z-mar-t-4 z-text-cen z-line-h-40">
+                            <span> 双轨系统</span>
+                        </div>
+                        <div class="fl z-w-130 z-mar-l-15 z-bor-ra-19  z-h-40 z-mar-t-4 z-text-cen z-line-h-40"><span>三轨系统</span></div>
+                        <div class="fl z-w-130 z-mar-l-15  z-bor-ra-19 z-h-40 z-mar-t-4 z-text-cen z-line-h-40"><span>级差系统</span></div>
+                        <div class="fl z-w-130 z-mar-l-15 z-bor-ra-19 z-h-40 z-mar-t-4 z-text-cen z-line-h-40"><span>矩阵系统</span></div>
+                        <div class="fl z-w-130 z-mar-l-15 z-bor-ra-19 z-h-40 z-mar-t-4 z-text-cen z-line-h-40"><span>太阳线系统</span></div>
+                        <div class="fl z-w-130 z-mar-l-15   z-bor-ra-19 z-h-40 z-mar-t-4 z-text-cen z-line-h-40"><span>五级三阶系统</span></div>
+                        <div class="fl z-w-130 z-mar-l-15 z-h-40   z-bor-ra-19 z-mar-t-4 z-text-cen z-line-h-40"><span>多用户商城系统</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row z-po-r z-h-544 sellNav1">
+                <!--单轨系统-->
+                <div class="z-po-ab " >
+                <p  class="z-po-ab"  style="left: 200px;top: 50px;"><img src="images/selling/mode_one.png" alt=""/></p>
+                <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-10  z-bor-b-2 z-bor-col-2992ed z-w-68">单轨系统</p>
+                        <p class="z-fs-14 z-padded-t-10">全球一条线公排直销系统又叫做单轨制直销系统,是按保单时间的先后顺序直线自动排</p>
+                        <p >列,横度无限,深度无限,排列无限拿</p>
+                        <p class="z-fs-14 z-padded-t-10">单轨前期收入比较快,摒弃了级差制新老直销商级别设置,完全按两边业绩情况获得收</p>
+                        <p >入.单轨的设计使直销商运作轻松,上级容易帮助下级</p>
+                        <p class="z-text-cen">
+                            <button class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</button>
+                        </p>
+                </div>
+                </div>
+                <!--双轨系统-->
+                <div class="z-po-ab z-dis-no" >
+                <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_two.jpg" alt=""/></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-10  z-bor-b-2 z-bor-col-2992ed z-w-68">双轨系统</p>
+                        <p class="z-fs-14 z-padded-t-10">双轨是一种组织架构，即每个经销商只需开发两个销售市场：</p>
+                        <p >以A经销商为代表的A市场和B经销商为代表的B市场，如此发展下去，形成一个销售网络体系</p>
+                        <p class="z-fs-14 z-padded-t-10">如果你又开发了第三个市场C经销商，只能放在A市场体系或者B市场体系中，而不允许放在自己名下</p>
+                        <p >这样一来扩大了你的薄弱市场，同时又帮助了该市场中相关联的人。</p>
+                        <p class="z-text-cen">
+                            <a class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</a>
+                        </p>
+                    </div>
+                </div>
+                <!--三轨系统-->
+                <div class="z-po-ab z-dis-no" >
+                    <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_three.jpg" alt=""/></p>
+                    <p  class="z-po-ab z-w-640 z-h-232 z-bg-fff"   style="left: 500px;top: 70px;"></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-30  z-bor-b-2 z-bor-col-2992ed z-w-68">三轨系统</p>
+                        <p class="z-fs-14 z-padded-t-10">就是以三的基数，逐级复制发展的一种模式，也叫“三轨制”。就是你复制出三个经销商，帮助</p>
+                        <p >这三个经销商各复制三个经销商，再让下属帮助这九个人各复制出三个经销商，以此类推。</p>
+                        <p class="z-text-cen z-padded-t-10">
+                            <button class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</button>
+                        </p>
+                    </div>
+                </div>
+                <!--级差系统-->
+                <div class="z-po-ab z-dis-no"  >
+                    <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_jicha.jpg" alt=""/></p>
+                    <p  class="z-po-ab z-w-640 z-h-232 z-bg-fff"   style="left: 500px;top: 70px;"></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16   z-padded-t-30 z-bor-b-2 z-bor-col-2992ed z-w-68">级差系统</p>
+                        <p class="z-fs-14 ">它指设置有多个级别，根据业绩一级级向上升，收入呈级差扩大的奖金制度。</p>
+                        <p  class="z-fs-14 ">直销级差制的特点包括：允许脱离和归零。脱离就是说当你的下级的小组业绩达到一定量的时候就</p>
+                        <p class="z-fs-14 ">可以晋升到和你同级或者超越你而到更高的职阶,一般情况下在脱离前的个人业绩是并入上级的小组计算的，即奖金是按整组业绩相对应的百分比来计算的.</p>
+                        <p class="z-text-cen">
+                            <a class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</a>
+                        </p>
+                    </div>
+                </div>
+                <!--矩阵系统-->
+                <div class="z-po-ab z-dis-no">
+                    <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_juzhen.jpg" alt=""/></p>
+                    <p  class="z-po-ab z-w-640 z-h-232 z-bg-fff"   style="left: 500px;top: 70px;"></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-10  z-bor-b-2 z-bor-col-2992ed z-w-68">矩阵系统</p>
+                        <p class="z-fs-14 z-padded-t-10">是指限制前排数量，按固定深度领取奖金，宽深一定形成矩阵的奖金制度。它的特点是</p>
+                        <p >主要以消费者为构建基础，没有“小组责任额”，而且个人责任额很低。所以要赚大钱就必须不断地开</p>
+                        <p class="z-fs-14 z-padded-t-10">发消费者市场。矩阵的精神是靠少量业绩稳定忠实消费者，以具有相当深度的稳定的组织网的重复消</p>
+                        <p class="z-fs-14 z-padded-t-10">费获得高额奖金。</p>
+                        <p class="z-text-cen">
+                            <a class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</a>
+                        </p>
+                    </div>
+                </div>
+                <!--太阳线系统-->
+                <div class="z-po-ab z-dis-no" >
+                    <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_sun.jpg" alt=""/></p>
+                    <p  class="z-po-ab z-w-640 z-h-232 z-bg-fff"   style="left: 500px;top: 70px;"></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-30  z-bor-b-2 z-bor-col-2992ed z-w-80">太阳线系统</p>
+                        <p class="z-fs-14 z-padded-t-10">叫太阳线是因为可以发展无数各直接推荐，并且，每一个直接推荐都是独立的，和其他你的直接推荐</p>
+                        <p >么有任何业绩关系，就像无数个小小太阳围着一个大太阳，故称其为太阳线直销系统</p>
+                        <p class="z-text-cen z-padded-t-30">
+                            <a class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</a>
+                        </p>
+                    </div>
+                </div>
+                <!--五级三阶系统-->
+                <div class="z-po-ab z-dis-no" >
+                    <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_wuji.jpg" alt=""/></p>
+                    <p  class="z-po-ab z-w-640 z-h-232 z-bg-fff"   style="left: 500px;top: 70px;"></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-10  z-bor-b-2 z-bor-col-2992ed z-w-106">五级三阶系统</p>
+                        <p class="z-fs-14 ">五级”是奖金制度的五个级别，即E级会员、D级推广员、C级培训员、B级代理员、A级代理商。</p>
+                        <p >“三阶”即加入者晋升的阶段。</p>
+                        <p>1.从E级会员升为C级培训员为第一个阶段，当你人数达到当时就晋升。</p>
+                        <p>2.C级培训员升为B级代理员为第二个阶段，当你人数达到在下个月的一号晋升。</p>
+                        <p>3.B级代理员升为A级代理商为第三个阶段，当你人数达到也在下个月的一号晋升。</p>
+                        <p class="z-text-cen ">
+                            <a class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</a>
+                        </p>
+                    </div>
+                </div>
+                <!--多用户商城系统-->
+                <div class="z-po-ab z-dis-no" >
+                    <p  class="z-po-ab" style="left: 200px;top: 50px;"><img style="width: 320px;height: 320px;" src="images/selling/mode_more.jpg" alt=""/></p>
+                    <p  class="z-po-ab z-w-640 z-h-232 z-bg-fff"   style="left: 500px;top: 70px;"></p>
+                    <div  class="z-po-ab z-w-640 z-col-333 z-h-232 z-bg-fff z-padded-l-15"  style="left: 500px;top: 70px;">
+                        <p class=" z-fs-16 z-padded-t-30  z-bor-b-2 z-bor-col-2992ed z-w-115">多用户商城系统</p>
+                        <p class="z-fs-14 z-padded-t-10">多用户商城及单用户商城 即是以商城交易主体参与而区分多用户与单用户,，</p>
+                        <p>通俗来讲单用户叫的就是单店比作现实的单店铺。多用户即是商城参与主体为二个</p>
+                        <p>或二个以前的主体,通俗来比喻是就是多个商城里面有多个店主，自行参与经营交易，</p>
+                        <p>称为多用户商城。</p>
+                        <p class="z-text-cen ">
+                            <a class="z-bor-ra-5 btn btn-default z-w-160 z-h-30 z-text-cen z-line-h-30 z-col-333 z-fs-12">了解详情</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+<!--奖金制度-->
+    <div class=" z-W100 z-h-688 bonus"></div>
+    <!--直销系统十大亮点-->
+    <div class="z-w-150 z-bor-b-2 z-bor-col-2992ed z-mar-au-0 z-text-cen z-fw-b z-fs-18">直销系统十大亮点</div>
+    <div class="z-w-266 z-padded-t-10 z-mar-au-0 ">可高端定制万人裂变模式,支持二次开发</div>
+    <div class="z-h-360 z-w-1200 z-mar-au-0 z-ov-hid z-po-r">
+        <!--左图标-->
+            <div class="z-fl z-padded-t-150 z-padded-r-15"><img src="images/bright/bright_more_left.png" alt=""/></div>
+            <div class="z-fl z-padded-t-150"><img src="images/bright/bright_more_right.png" alt=""/></div>
+        <!--轮播的内容-->
+            <div class="z-W221 ">
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen  z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_batch.png" alt=""/></p>
+                    <p><h2>批量注册</h2></p>
+                    <p class="z-padded-t-20">支持批量用户一键注册,无需手动</p>
+                    <p>输入,节省大量时间和精力,让数</p>
+                    <p>据更简单点</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_k.png" alt=""/></p>
+                    <p><h2>K值控盘</h2></p>
+                    <p class="z-padded-t-20">当拔比率达到一定比例时,启动</p>
+                    <p>控盘,从而有效控制会员奖金,控</p>
+                    <p>制成本</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_error.png" alt=""/></p>
+                    <p><h2>报错单</h2></p>
+                    <p class="z-padded-t-20">如系统判断未添加下级会员,可选</p>
+                    <p>择将会员删除,并扣减该会员已产</p>
+                    <p>生的奖金</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_bouns.png" alt=""/></p>
+                    <p><h2>奖金来源说明</h2></p>
+                    <p class="z-padded-t-20">每一个会员的奖金都可以追溯来</p>
+                    <p>源,方便查看会员奖金明细,奖金</p>
+                    <p>来源的计算公式</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_bouns.png" alt=""/></p>
+                    <p><h2>奖金来源说明</h2></p>
+                    <p class="z-padded-t-20">每一个会员的奖金都可以追溯来</p>
+                    <p>源,方便查看会员奖金明细,奖金</p>
+                    <p>来源的计算公式</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_bouns.png" alt=""/></p>
+                    <p><h2>奖金来源说明</h2></p>
+                    <p class="z-padded-t-20">每一个会员的奖金都可以追溯来</p>
+                    <p>源,方便查看会员奖金明细,奖金</p>
+                    <p>来源的计算公式</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_bouns.png" alt=""/></p>
+                    <p><h2>奖金来源说明</h2></p>
+                    <p class="z-padded-t-20">每一个会员的奖金都可以追溯来</p>
+                    <p>源,方便查看会员奖金明细,奖金</p>
+                    <p>来源的计算公式</p>
+                </div>
+                <div class="z-fl z-mar-r-10 z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_bouns.png" alt=""/></p>
+                    <p><h2>奖金来源说明</h2></p>
+                    <p class="z-padded-t-20">每一个会员的奖金都可以追溯来</p>
+                    <p>源,方便查看会员奖金明细,奖金</p>
+                    <p>来源的计算公式</p>
+                </div>
+                <div class="z-fl z-w-285 z-h-360 z-text-cen z-bor-efefef">
+                    <p class="z-padded-t-50 "><img src="images/bright/bright_bouns.png" alt=""/></p>
+                    <p><h2>奖金来源说明</h2></p>
+                    <p class="z-padded-t-20">每一个会员的奖金都可以追溯来</p>
+                    <p>源,方便查看会员奖金明细,奖金</p>
+                    <p>来源的计算公式</p>
+                </div>
+            </div>
+        <!--右图标-->
+
+
+
+    </div>
+</section>
+<!--脚部-->
+<footer id="footer"></footer>
+<script src="js/footer.js"></script>
+<script src="js/server-banner.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
